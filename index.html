@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>Pagination</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Media Storage</title>
-</head>
-<body>
-    <center>
-        <h1>My Media Storage</h1>
-        <hr>
-        <p>Welcome to my media storage! Watch your favorite videos, listen to songs, play games and most importantly, enjoy!</p>
-    
-    <hr>
-    <h2>Some Pictures</h2>
-    <img src="autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.png" alt="Autumn Landscape">
-    <img src="photo.png" width="800" height="500" alt="Photo">
-    <hr>
-    <h2>Some Songs</h2>
-    <audio controls loop>
-        <source src="Papaoutai.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4sHlCovj-Ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <hr>
-    <h2>Some Games</h2>
-    <iframe src="https://kour.io" allowtransparency="true" width="960" height="540" frameborder="0" scrolling="no" allowfullscreen></iframe>
-<iframe src="https://eaglercraft.com/" allowtransparency="true" width="960" height="540" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    </center>
-</body>
-</html>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <style>
+    .body { 
+      background-image: url('Copilot_20260617_195913.png');
+      background-size: cover;
+      background-position: center;
+      color: black;
+      text-align: center;
+      text-shadow: 2px 2px #ffaaaa;
+    font-family: 'Nimbus Sans Bold,bold';
+
+   }
+   </style> 
+  </head>
+<body class="body">
+  
+<div class="container">
+    <h2>FIFA WORLD CUP 2026</h2>
+    <p>The world's most prestigious football tournament is coming to the United States, Canada, and Mexico!</p>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="index.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="index2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="index3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>

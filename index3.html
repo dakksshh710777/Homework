@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pagination</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <style>
+    .body { 
+      background-image: url('Copilot_20260617_195913.png');
+      background-size: cover;
+      background-position: center;
+      color: black;
+      text-align: center;
+      text-shadow: 2px 2px #ffaaaa;
+    font-family: 'Nimbus Sans Bold,bold';
+
+   }
+   </style>
+</head>
+<body class="body">
+
+<div class="container">
+    <h2>2026 FIFA World Cup - Group Stage Matches</h2>
+    <p>Upcoming matches with times converted to IST (Indian Standard Time)</p>
+    
+    <div class="mt-4 mb-4">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Group</th>
+                    <th>Team A</th>
+                    <th>Team B</th>
+                    <th>Time (IST)</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Real completed tournament data -->
+                <tr>
+                    <td>June 11</td>
+                    <td>A</td>
+                    <td>Mexico</td>
+                    <td>South Africa</td>
+                    <td>2 - 0</td>
+                    <td>6:30 AM</td>
+                    <td>Mexico City</td>
+                </tr>
+                <tr>
+                    <td>June 12</td>
+                    <td>A</td>
+                    <td>South Korea</td>
+                    <td>Czechia</td>
+                    <td>2 - 1</td>
+                    <td>11:30 AM</td>
+                    <td>Guadalajara</td>
+                </tr>
+                <tr>
+                    <td>June 13</td>
+                    <td>B</td>
+                    <td>Qatar</td>
+                    <td>Switzerland</td>
+                    <td>1 - 1</td>
+                    <td>7:30 AM</td>
+                    <td>Santa Clara</td>
+                </tr>
+                <tr>
+                    <td>June 13</td>
+                    <td>C</td>
+                    <td>Brazil</td>
+                    <td>Morocco</td>
+                    <td>1 - 1</td>
+                    <td>3:30 AM</td>
+                    <td>East Rutherford</td>
+                </tr>
+                <tr>
+                    <td>June 13</td>
+                    <td>C</td>
+                    <td>Haiti</td>
+                    <td>Scotland</td>
+                    <td>0 - 1</td>
+                    <td>10:30 PM</td>
+                    <td>Boston</td>
+                </tr>
+                <tr>
+                    <td>June 14</td>
+                    <td>D</td>
+                    <td>Australia</td>
+                    <td>Turkey</td>
+                    <td>2 - 0</td>
+                    <td>9:30 AM</td>
+                    <td>Vancouver</td>
+                </tr>
+                <tr>
+                    <td>June 14</td>
+                    <td>E</td>
+                    <td>Germany</td>
+                    <td>Curaçao</td>
+                    <td>7 - 1</td>
+                    <td>6:30 AM</td>
+                    <td>Houston</td>
+                </tr>
+                <tr>
+                    <td>June 14</td>
+                    <td>F</td>
+                    <td>Netherlands</td>
+                    <td>Japan</td>
+                    <td>2 - 2</td>
+                    <td>5:30 AM</td>
+                    <td>Arlington</td>
+                </tr>
+                <tr>
+                    <td>June 14</td>
+                    <td>E</td>
+                    <td>Ivory Coast</td>
+                    <td>Ecuador</td>
+                    <td>1 - 0</td>
+                    <td>11:30 PM</td>
+                    <td>Philadelphia</td>
+                </tr>
+                <tr>
+                    <td>June 15</td>
+                    <td>H</td>
+                    <td>Spain</td>
+                    <td>Cape Verde</td>
+                    <td>0 - 0</td>
+                    <td>5:30 AM</td>
+                    <td>Atlanta</td>
+                </tr>
+                <tr>
+                    <td>June 15</td>
+                    <td>G</td>
+                    <td>Belgium</td>
+                    <td>Egypt</td>
+                    <td>1 - 1</td>
+                    <td>3:30 AM</td>
+                    <td>Seattle</td>
+                </tr>
+                <tr>
+                    <td>June 15</td>
+                    <td>H</td>
+                    <td>Saudi Arabia</td>
+                    <td>Uruguay</td>
+                    <td>1 - 1</td>
+                    <td>3:30 AM</td>
+                    <td>Miami</td>
+                </tr>
+                <tr>
+                    <td>June 16</td>
+                    <td>G</td>
+                    <td>Iran</td>
+                    <td>New Zealand</td>
+                    <td>2 - 2</td>
+                    <td>9:30 AM</td>
+                    <td>Inglewood</td>
+                </tr>
+                <tr>
+                    <td>June 16</td>
+                    <td>I</td>
+                    <td>France</td>
+                    <td>Senegal</td>
+                    <td>3 - 1</td>
+                    <td>12:30 AM</td>
+                    <td>East Rutherford</td>
+                </tr>
+                <tr>
+                    <td>June 16</td>
+                    <td>J</td>
+                    <td>Argentina</td>
+                    <td>Algeria</td>
+                    <td>3 - 0</td>
+                    <td>6:30 AM</td>
+                    <td>Kansas City</td>
+                </tr>
+                <tr>
+                    <td>June 17</td>
+                    <td>J</td>
+                    <td>Austria</td>
+                    <td>Jordan</td>
+                    <td>3 - 1</td>
+                    <td>9:30 AM</td>
+                    <td>Santa Clara</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Active pagination links targeting your development paths -->
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="index.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="index2.html">2</a></li>
+        <li class="page-item active"><a class="page-link" href="index3.html">3</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
